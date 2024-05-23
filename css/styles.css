@@ -294,7 +294,7 @@ color: #434455;
 
 }
 
-.our-portfolio-lisr{
+.our-portfolio-list{
   margin-bottom: 8px;
 }
 .our-portfolio-text {
@@ -342,20 +342,16 @@ height: 312px;
 display: flex;
 
 
+
 }
 .footer-container {
   
   display: flex;
   padding: 100px 0;
   
-
-  
-  
 }
 
-.footer-logo-all{
-  display: inline-block;
-}
+
 
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -367,6 +363,7 @@ display: flex;
   color: #4d5ae5;
   margin-top: 100px;
   margin-bottom: 16px;
+  display: inline-block;
   
 
 }
@@ -390,8 +387,9 @@ display: flex;
   color: #f4f4fd;
   margin-top: 140px;
   box-sizing: border-box;
-  width: 264px;
+  max-width: 264px;
 height: 112px;
+
 
 
   
