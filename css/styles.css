@@ -223,6 +223,15 @@ button {
 
 .footer {
   background-color: #2e2f42;
+  width: 1440px;
+height: 312px;
+display: flex;
+}
+.footer-container {
+  margin-right: auto;
+  display: flex;
+  
+  
 }
 
 .footer-logo {
@@ -233,6 +242,9 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-top: 100px;
+  display: flex;
+
 }
 
 .footer-logo-studio {
@@ -242,6 +254,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  display: flex;
 }
 
 .footer-text {
@@ -250,4 +263,13 @@ button {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 140px;
+  box-sizing: border-box;
+  width: 264px;
+height: 112px;
+display: flex;
+
+  
+
+
 }
