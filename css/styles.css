@@ -343,7 +343,7 @@ padding: 100px 0;
 
 }
 .footer-container {
-  display: flex;
+  
   padding: 100px 0 100px;
   
 }
@@ -378,6 +378,6 @@ padding: 100px 0;
   box-sizing: border-box;
   max-width: 264px;
 height: 112px;
-display: inline-block;
+display: block;
 margin-right: auto;
 }
