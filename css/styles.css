@@ -165,7 +165,7 @@ padding: 188px 0 188px 0;
   margin-bottom: 8px;
   
 }
-.visually-hiden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -175,16 +175,16 @@ padding: 188px 0 188px 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  visibility: hidden;
-  margin-bottom: 8px;
-
+  overflow: hidden;
 }
+
 .features>h3 {
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-bottom: 8px;
 
 
 }
@@ -192,7 +192,7 @@ color: #2E2F42;
   display: block;
   margin-top: 120px;
   margin-bottom: 8px;
-  margin: auto;
+  
   
 }
 
@@ -229,10 +229,12 @@ text-align: center;
 color: #2E2F42;
 margin-bottom: 8px;
 margin-bottom: 72px;
+
 }
 .div-name{
   padding: 32px 0;
-  
+  text-align: center;
+  margin-bottom: 8px
 }
 
 .taemmate-name{
@@ -289,6 +291,11 @@ color: #434455;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
+
+}
+
+.our-portfolio-lisr{
+  margin-bottom: 8px;
 }
 .our-portfolio-text {
   text-transform: capitalize;
@@ -337,13 +344,17 @@ display: flex;
 
 }
 .footer-container {
-  margin-right: auto;
-  display: flex;
   
+  display: flex;
+  padding: 100px 0;
   
 
   
   
+}
+
+.footer-logo-all{
+  display: inline-block;
 }
 
 .footer-logo {
@@ -356,7 +367,7 @@ display: flex;
   color: #4d5ae5;
   margin-top: 100px;
   margin-bottom: 16px;
-  display: inline-block;
+  
 
 }
 
