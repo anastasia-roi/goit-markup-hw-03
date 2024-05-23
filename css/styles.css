@@ -154,11 +154,15 @@ padding: 188px 0 188px 0;
 .features-section{
   padding: 120px 0;
 }
+.feature-list {
+  display: flex;
+  gap: 24px;
+}
 
 .features {
   display: flex;
-  gap: 24px;
-
+  width: calc((100% - 72px) / 4);
+  margin-bottom: 8px;
   
 }
 .visually-hiden{
@@ -172,6 +176,7 @@ padding: 188px 0 188px 0;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+  margin-bottom: 8px;
 
 }
 .features>h3 {
@@ -181,6 +186,14 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2E2F42;
 
+
+}
+.feature-name {
+  display: block;
+  margin-top: 120px;
+  margin-bottom: 8px;
+  margin: auto;
+  
 }
 
 .features>p {
@@ -189,13 +202,20 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+display: block;
+margin: auto;
 }
 
 
 .our-team {
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 
+.team-list{
+  display: flex;
+  gap: 24px;
+}
 .our-team-text {
 
   text-transform: capitalize;
@@ -206,6 +226,11 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
 margin-bottom: 8px;
+margin-bottom: 72px;
+}
+.taemmate-name{
+  text-align: center;
+  margin-bottom: 8px
 }
 
 .teammates {
@@ -273,10 +298,12 @@ button {
   width: 1440px;
 height: 312px;
 display: flex;
+
 }
 .footer-container {
   margin-right: auto;
   display: flex;
+  padding: 100px 0;
   
   
 }
@@ -290,7 +317,8 @@ display: flex;
   text-transform: uppercase;
   color: #4d5ae5;
   margin-top: 100px;
-  display: flex;
+  margin-bottom: 16px;
+  display: inline-block;
 
 }
 
@@ -301,7 +329,8 @@ display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
-  display: flex;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer-text {
@@ -317,6 +346,4 @@ height: 112px;
 display: flex;
 
   
-
-
 }
