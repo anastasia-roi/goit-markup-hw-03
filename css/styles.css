@@ -21,6 +21,9 @@ a:hover {
 a:focus {
   color: #404BBF;
 }
+img {
+  display: block;
+}
 
 address {
   font-style: normal;
@@ -110,6 +113,10 @@ color: #2e2f42;
 
 .hero {
   background-color: #2e2f42;
+  width: 1440px;
+height: 600px;
+padding: 188px 0 188px 0;
+
 }
 
 .hero-text {
@@ -119,6 +126,12 @@ color: #2e2f42;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  display: block;
+  margin-top: 188px;
+  max-width: 496px;
+  margin: auto;
+  
+
 }
 
 .hero-button {
@@ -127,6 +140,15 @@ color: #2e2f42;
   font-weight: 500;
   color: #ffffff;
   background-color: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: auto;
+  margin-top: 48px;
+
+  
 }
 
 .features>h3 {
