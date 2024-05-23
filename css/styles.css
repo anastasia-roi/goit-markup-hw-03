@@ -237,7 +237,7 @@ margin-bottom: 72px;
   margin-bottom: 8px
 }
 
-.taemmate-name{
+.teammate-name{
   text-align: center;
   margin-bottom: 8px;
   
@@ -340,14 +340,12 @@ button {
   width: 1440px;
 height: 312px;
 display: flex;
-
-
+display: inline-block;
 
 }
 .footer-container {
   
-  display: flex;
-  padding: 100px 0;
+  
   
 }
 
@@ -385,10 +383,11 @@ display: flex;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  margin-top: 140px;
+  margin-top: 16px;
   box-sizing: border-box;
   max-width: 264px;
 height: 112px;
+display: flex;
 
 
 
